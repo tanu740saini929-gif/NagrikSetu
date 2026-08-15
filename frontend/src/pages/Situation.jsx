@@ -78,7 +78,7 @@ function Situation() {
         );
       } else if (err.request) {
         setError(
-          "Unable to connect to the NagrikSetu backend. Please make sure FastAPI is running on http://127.0.0.1:8000."
+          "Unable to connect to the NagrikSetu backend. Please try again in a moment."
         );
       } else {
         setError(
